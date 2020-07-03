@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de projetos</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <img src="./assets/catalogIcon.png" />
+      <h1>Organizador de projetos</h1>
+    </header>
+    <section>
+      <div>
+        <h1>Lista de projetos</h1>
+        <ul id="ProjectList"></ul>
+      </div>
+      <nav>
+        <div class="search">
+          <label>Pesquisar pelo titulo: </label>
+          <input type="text" name="owner" id="searchInput" />
+        </div>
+        <h2>Adicionar Projeto</h2>
+        <form id="projectForm">
+          <div>
+            <label>Titulo: </label>
+            <input type="text" name="title" id="inputTitle" />
+          </div>
+          <div>
+            <label>Dono: </label>
+            <input type="text" name="owner" id="inputOwner" />
+          </div>
+          <div>
+            <label>Url:</label>
+            <input type="text" name="url" id="inputUrl" />
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </nav>
+    </section>
+  </body>
+</html>
